@@ -1,0 +1,129 @@
+/* Remove the navbar's default rounded borders and increase the bottom margin */
+
+body {
+	min-height: 100vh;
+	width: auto;
+    font-family: 'Open Sans', sans-serif;
+    /* background: linear-gradient(to bottom, #918d8d, #453c3c, #5a4747);
+     */
+}
+
+/* Add a gray background color and some padding to the footer */
+footer {
+    /* position: fixed; */
+    bottom: 0;
+    
+}
+
+
+.admin-view #admin-area {
+    min-height: 100vh;
+    
+}
+
+
+
+
+
+.admin-view .admin-links * {
+    border-radius: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.admin-view .admin-links  {
+/* background-color: rgb(33,37,41); */
+/* background: linear-gradient(to right, #373b44, #4286f4) !important; */
+background-color: rgb(13,110,253);
+box-shadow: 5px 5px 20px 20px #000000;
+
+
+}
+
+
+
+.admin-view .admin-links li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    transition: opacity 1s;
+}
+
+.admin-view .admin-links li a:hover {
+    opacity: 0.5;
+    background-color: white;
+    color: black;
+    background-color: white;
+
+}
+
+/* -------------------Dashboard------------------- */
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    border: none;
+    position: relative;
+    margin-bottom: 30px;
+    -webkit-box-shadow: 0px 0px 9px 5px #000000; 
+    box-shadow: 0px 0px 4px 4px #000000;
+}
+.l-bg-cherry {
+    background: linear-gradient(to right, #493240, #f09) !important;
+    color: #fff;
+}
+
+.l-bg-blue-dark {
+    background: linear-gradient(to right, #373b44, #4286f4) !important;
+    color: #fff;
+}
+
+.l-bg-green-dark {
+    background: linear-gradient(to right, #0a504a, #38ef7d) !important;
+    color: #fff;
+}
+
+.l-bg-orange-dark {
+    background: linear-gradient(to right, #a86008, #ffba56) !important;
+    color: #fff;
+}
+
+.l-bg-red-dark {
+    background: linear-gradient(to right, #a82008, #ff5656) !important;
+    color: #fff;
+}
+
+.card .card-statistic-3 .card-icon-large .fas, .card .card-statistic-3 .card-icon-large .far, .card .card-statistic-3 .card-icon-large .fab, .card .card-statistic-3 .card-icon-large .fal {
+    font-size: 110px;
+}
+
+.card .card-statistic-3 .card-icon {
+    text-align: center;
+    line-height: 50px;
+    margin-left: 15px;
+    color: #000;
+    position: absolute;
+    right: -5px;
+    top: 20px;
+    opacity: 0.1;
+}
+
+.l-bg-cyan {
+    background: linear-gradient(135deg, #289cf5, #84c0ec) !important;
+    color: #fff;
+}
+
+.l-bg-green {
+    background: linear-gradient(135deg, #23bdb8 0%, #43e794 100%) !important;
+    color: #fff;
+}
+
+.l-bg-orange {
+    background: linear-gradient(to right, #f9900e, #ffba56) !important;
+    color: #fff;
+}
+
+.l-bg-cyan {
+    background: linear-gradient(135deg, #289cf5, #84c0ec) !important;
+    color: #fff;
+}

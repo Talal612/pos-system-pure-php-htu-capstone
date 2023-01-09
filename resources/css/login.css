@@ -1,0 +1,98 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    /* background: linear-gradient(to bottom, #918d8d, #453c3c, #5a4747);
+     */
+/* border: #000000 solid 50px;
+border-radius: 50px;
+box-shadow: 5px 5px 20px 20px #302b63; */
+
+
+     /* background: linear-gradient(270deg, rgb(255, 255, 255) 25%, rgb(0, 0, 0) 50%, rgb(255, 255, 255) 25%); */
+}
+
+
+.pos-Container {
+display: flex;
+margin-block: 5rem;
+align-items: center;
+justify-content: center;
+/* opacity: 0.8; */
+
+}
+
+
+.pos-register {
+margin: 20px;
+}
+
+.pos-check {
+margin-bottom: 10px;
+text-align:center;
+}
+.pos-box {
+background-color: rgb(255, 255, 255);
+border-radius: 20px;
+padding: 50px;
+width: 55vh; 
+box-shadow: 5px 5px 20px 20px #302b63;
+margin: auto;  
+
+}
+
+@media (max-width: 480px) {
+.pos-Container {
+    padding: 25px 25px;
+}
+}
+
+.pos-Login-Label {
+font-weight: bolder;
+}
+
+#pos-button{
+font-size: 25px;
+padding: 10px;
+margin-left: 5rem;
+margin-top:2rem;
+transition: 0.4s;
+}
+
+#pos-button:hover {
+background-color: #302b63; 
+color: white;
+}
+
+.pos-Error-Massage {
+    background-color: #c7574f; 
+    color: white;
+    margin-bottom: 10px;
+    padding:2px;
+
+}
+
+
+
+.pos-box h1 {
+font-size: 35px;
+text-align: center;
+margin-bottom: 45px;
+font-weight: bolder;
+}
+
+
+.pos-register > i {
+    margin-right: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

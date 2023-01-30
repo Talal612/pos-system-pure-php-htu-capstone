@@ -6,6 +6,7 @@ pure php (no framework) -- MVC design pattern .
 
 
 For Demo :
+WebSite: http://htu-pos.infinityfreeapp.com//
 Users Accounts :
 =========ADMIN===========
 
